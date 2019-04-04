@@ -44,66 +44,39 @@
                         title: '系统首页'
                     },
                     {
-                        icon: 'el-icon-lx-cascades',
-                        index: 'table',
-                        title: '基础表格'
-                    },
-                    {
-                        icon: 'el-icon-lx-copy',
-                        index: 'tabs',
-                        title: 'tab选项卡'
-                    },
-                    {
                         icon: 'el-icon-lx-calendar',
                         index: '3',
-                        title: '表单相关',
+                        title: 'APP基础配置',
                         subs: [
                             {
                                 index: 'form',
-                                title: '基本表单'
+                                title: '登陆页面'
+                            },
+                            {
+                                index: 'form',
+                                title: '注册页面'
+                            },
+                            {
+                                index: 'form',
+                                title: '底部导航'
                             },
                             {
                                 index: '3-2',
-                                title: '三级菜单',
+                                title: '页面编辑',
                                 subs: [
                                     {
                                         index: 'editor',
-                                        title: '富文本编辑器'
+                                        title: '下拉列表配置'
                                     },
                                     {
                                         index: 'markdown',
-                                        title: 'markdown编辑器'
+                                        title: '表头配置'
                                     },
                                 ]
                             },
                             {
                                 index: 'upload',
-                                title: '文件上传'
-                            }
-                        ]
-                    },
-                    {
-                        icon: 'el-icon-lx-emoji',
-                        index: 'icon',
-                        title: '自定义图标'
-                    },
-                    {
-                        icon: 'el-icon-lx-favor',
-                        index: 'charts',
-                        title: 'schart图表'
-                    },
-                    {
-                        icon: 'el-icon-rank',
-                        index: '6',
-                        title: '拖拽组件',
-                        subs: [
-                            {
-                                index: 'drag',
-                                title: '拖拽列表',
-                            },
-                            {
-                                index: 'dialog',
-                                title: '拖拽弹框',
+                                title: '图片上传'
                             }
                         ]
                     },

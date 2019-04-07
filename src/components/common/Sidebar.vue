@@ -53,12 +53,12 @@
                                 title: '登陆页面配置'
                             },
                             {
-                                index: 'form',
-                                title: '注册页面'
+                                index: 'registerConfiguration',
+                                title: '注册页面配置'
                             },
                             {
-                                index: 'form',
-                                title: '底部导航'
+                                index: 'bottomNavigationConfiguration',
+                                title: '底部导航配置'
                             },
                             {
                                 index: '3-2',

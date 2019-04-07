@@ -27,6 +27,12 @@ export default new Router({
                     meta: { title: '文件上传' }
                 },
                 {
+                    // 图片上传组件
+                    path: '/loginConfiguration',
+                    component: resolve => require(['../components/page/configuration/loginConfiguration.vue'], resolve),
+                    meta: { title: '登陆页面配置' }
+                },
+                {
                     // 权限页面
                     path: '/permission',
                     component: resolve => require(['../components/page/err/Permission.vue'], resolve),

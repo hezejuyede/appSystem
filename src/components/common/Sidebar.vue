@@ -49,8 +49,8 @@
                         title: 'APP基础配置',
                         subs: [
                             {
-                                index: 'form',
-                                title: '登陆页面'
+                                index: 'loginConfiguration',
+                                title: '登陆页面配置'
                             },
                             {
                                 index: 'form',

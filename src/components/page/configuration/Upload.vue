@@ -97,7 +97,8 @@
     }
 </script>
 
-<style scoped>
+<style scoped lang="less" rel="stylesheet/less">
+    @import "../../../assets/less/base";
     .content-title{
         font-weight: 400;
         line-height: 50px;
